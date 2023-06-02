@@ -2,9 +2,16 @@
 
 class NewsModel {
   constructor() {
-
+    this.articleHeadlines = []
   }
 
+    getArticleHeadline() {
+      return this.articleHeadlines;
+    }
+
+    setArticleHeadline(headlines) {
+      this.articleHeadlines = headlines;
+    }
 
 }
 

@@ -15,6 +15,8 @@ class NewsClient {
           return newsStories
       })
   }
+
+  
 }
 
 module.exports = NewsClient;
